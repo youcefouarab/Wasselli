@@ -1,0 +1,8 @@
+<?php return array (
+  0 => '0554996618',
+  1 => 'admin@wasselli.dz',
+  2 => 'wasselli_fb',
+  3 => 'wasselli_twt',
+  4 => 'wasselli_snap',
+  5 => 'wasselli_ig',
+);

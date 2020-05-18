@@ -1,0 +1,30 @@
+*{
+  text-transform: capitalize;
+  line-height:1.8em;
+  font-size:16px;
+}
+.h1{
+     margin-top:50px;
+    margin-bottom:30px;
+    letter-spacing:4px;
+}
+
+.to-search{
+    display:block;
+    width:80%;
+    padding: 5px;
+    border-radius:4px;
+    border:1px solid #ccc;
+  margin: auto;
+  margin-bottom:25px;
+}
+.margin{
+  display: block;
+  margin-bottom:30px;
+}
+
+.margin span:hover,
+.margin input:hover{background-color:#eee}
+.res{
+  margin:20px ;
+}

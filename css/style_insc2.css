@@ -1,0 +1,36 @@
+
+
+#survey-form {
+    padding: 2vw;
+    background-color: white;
+    margin-bottom: 4vh;
+    border-radius: 10px;
+}
+
+#description {
+    font-size: 1.75rem;
+}
+
+p {
+    font-weight: bold;
+}
+
+.lastElement {
+    margin-bottom: 4vh;
+}
+
+#definitely, #maybe {
+    margin-right: 2vw;
+}
+
+#notSure {
+    margin-bottom: 4vh;
+}
+
+#html, #css, #js, #cs, #sql, #python, #cplusx2, #swift, #java, #jquery, #php, #ruby, #vs, #go {
+    margin-right: 2vw;
+}
+
+#c {
+    margin-bottom: 4vh;
+}

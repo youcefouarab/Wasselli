@@ -1,0 +1,275 @@
+.tabs{
+	width: 900px;
+	position: absolute;
+	left:50%;
+	transform: translate(-50%,0%);
+	
+}
+
+.adm {
+            text-decoration: none;
+            padding: 10px 25px;
+            background-color: #187cc2;
+            color: #fff;
+            font-size: 13px;
+            transition: 0.5s; -webkit-transition:0.5s;
+        }
+.adm:hover {
+            text-decoration: none;
+            background-color: #666;
+            color: #fff;
+            transition: 0.5s; -webkit-transition:0.5s;
+        }
+
+ul {
+	list-style: none;
+
+}
+
+.tabs ul li {
+	text-align: center;
+	display: inline-block;
+	
+
+}
+
+.tabs ul li a{
+	text-decoration: none;
+	border-bottom: 3px solid #187cc2;
+	padding: 10px;
+	width: 222px;
+	display: inline-block;
+	color: #187cc2;
+
+}
+
+.tabs ul li a:hover{
+	
+	background: #187cc2;
+	color:#fff;
+	transition:0.5s; -webkit-transition:0.5s;
+
+}
+
+.page {
+	width: 900px;
+	background-color: #fff;
+	position: absolute;
+	left:50%;
+	top:50px;
+	transform: translate(-50%,0%);
+}
+
+
+
+.left{
+	float: left;
+	width: 300px;
+}
+
+.right{
+	width: 600px;
+	margin-top: 50px;
+	position: absolute;
+	left:50%;
+	transform: translate(-50%,0%);
+}
+
+h2.s1{
+	color: #000;
+	font-size: 35px;
+	text-align: center;
+}
+
+h2.s2{
+	color: #fff;
+	font-size: 25px;
+	float: left;
+	padding: 10px 0 0 10px;
+}
+
+.right label{
+	margin-bottom: 30px;
+	font-size: 20px;
+	display: inline-block;
+	width:140px;
+	text-align: right;
+}
+
+.right input{
+	width: 350px;
+	height: 30px;
+	border: 1px solid #187cc2;
+	padding: 0 0 0 10px;
+}
+
+.boutton{
+	float:right;
+	width:145px;
+	height:41px;
+	border:1px solid #11598b;
+	text-align:center;
+	font-size:14px;
+	color:#187cc2;
+	font-weight:normal;
+	text-transform:uppercase;
+	line-height:41px;
+	margin:0 0 0 0;
+	border: 1px solid #187cc2;
+	border-radius:5px; -webkit-border-radius:5px; 
+	transition:0.5s; -webkit-transition:0.5s;
+	background:#fff;
+	text-decoration:none;
+	}
+
+.suppr {
+	background-color: #fff;
+	color: #d63031;
+	border: 1px solid #d63031;
+}
+	
+.boutton:hover{
+	text-decoration:none;
+	background: #187cc2;
+	border:1px solid #187cc2;
+	color:#fff;
+	}
+
+.suppr:hover {
+	text-decoration:none;
+	background: #d63031;
+	border:1px solid #d63031;
+	color:#fff;
+}
+	
+
+
+.list_notif {
+	width: 850px;
+	margin-top: 30px;
+	position: absolute;
+	left:50%;
+	transform: translate(-50%,0%);
+}
+
+.notif {
+	width: 850px;
+	height: 100%;
+	border-top: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+
+	
+}
+
+.notifv {
+	width: 850px;
+	height: 100%;
+	border-top: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+	background-color: #f1f1f1;
+	
+}
+
+.titrep {
+	width: 170px;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding: 5px 10px 5px 10px;
+	background-color: #dec82b;
+	color:#fff;
+	z-index: 1;
+	display: inline-block;
+}
+
+.titres {
+	width: 170px;
+	text-align: center;
+	z-index: 1;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding: 5px 10px 5px 10px;
+	background-color: #e63030;
+	color:#fff;
+	display: inline-block;
+}
+
+.titreg {
+	width: 170px;
+	text-align: center;
+	z-index: 1;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding: 5px 10px 5px 10px;
+	background-color: #bbb;
+	color:#fff;
+	display: inline-block;
+}
+
+
+p.datep {
+	margin-right: 5px;
+	float: right;
+	color: #bbb;
+	font-size: 13px;
+
+}
+
+p.dates {
+	margin-right: 5px;
+	float: right;
+	color: #bbb;
+	font-size: 13px;
+}
+
+.lab {
+	display: inline-block;
+	margin-left: 10px;
+	
+}
+
+
+
+
+a.prof {
+	text-decoration: none;
+	display: inline-block;
+	margin-left: 5px;
+	color:#187cc2;
+}
+
+.vu {
+	z-index: 3;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    display: inline-block;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+
+.black {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0.5;
+}
+
+.profile {
+	width: 50%;
+	height: 75%;
+	background-color: #fff; 
+	position: fixed;
+	top:50%;
+	left:50%;
+	transform: translate(-50%;-50%);
+	border-radius: 10%;
+
+}
